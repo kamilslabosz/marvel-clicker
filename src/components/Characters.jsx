@@ -13,7 +13,7 @@ function Characters(props) {
     <h1>Characters:</h1> 
     <Row className="align-items-center">
         <Col>
-            <img src={mkImg} width="200" alt="Moon Knight" />
+            <img src={mkImg} width="200" alt="Moon Knight" onClick={props.buyMoonKnight} />
             <h2>Moon Knight</h2>
         </Col>
         <Col>

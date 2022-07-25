@@ -5,7 +5,7 @@ function BoxOffice(props) {
     return <div>
     <h1>Box Office: {props.boxOffice}$</h1> 
     <h2>Invest!</h2>
-    <img src={money} alt="money" />
+    <img src={money} alt="money" onClick={props.invest} />
     </div>
 }
 
