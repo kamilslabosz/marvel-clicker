@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import { useState } from 'react';
+import BoxOffice from "./components/BoxOffice";
+import Movies from "./components/Movies";
+import Characters from "./components/Characters";
 
 function App() {
+
+  const [boxOffice, setBoxOffice] = useState(0);
+  const [moonKnight, setMoonKnight] = useState(0);
+  const [antMan, setAntMan] = useState(0);
+  const [ironMan, setIronMan] = useState(0);
+  const [spiderMan, setSpiderMan] = useState(0);
+  const [avengers, setAvengers] = useState(0);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+      <BoxOffice boxOffice={boxOffice}></BoxOffice>
+      <Movies></Movies>
+      <Characters></Characters>
     </div>
   );
 }
