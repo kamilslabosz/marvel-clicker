@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #000000;
+    text-align: center;
+  }
+
+.box-office {
+    background-color: #e23636;
+    padding: 2% 0 5%;
+ }
+
+ .money-img {
+    width: 20%;
+ }
+
+.characters {
+    background-color: #504a4a;
+    color: white;
+    padding: 5% 0;
+}
+
+.movies {
+    background-color: #f78f3f;
+    padding-bottom: 50px;
+}
+
+.round {
+    border-radius: 150px;
+}
+
+.character-button {
+    width: 100%;
+}
+
+.character-button:disabled {
+    opacity: 0.2;
+}
+
+.main-container {
+    margin: 5% 15%;
+}
+
+h2 {
+    font-size: 1vw;
+}
+
+h1 {
+    font-size: 1.5vw;
+}

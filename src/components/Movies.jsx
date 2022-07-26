@@ -7,7 +7,7 @@ import avgrsImg from "../images/avgrs.png";
 
 
 function Movies(props) {
-    return <div>
+    return <div className="movies rounded-bottom">
     <h1>Movies:</h1> 
     {props.moonKnight.map((movies, index) => {
         return (

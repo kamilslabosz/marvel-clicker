@@ -1,7 +1,7 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import React, { useState } from 'react';
 import { useInterval } from 'usehooks-ts'
-import 'bootstrap/dist/css/bootstrap.min.css';
 import BoxOffice from "./components/BoxOffice";
 import Movies from "./components/Movies";
 import Characters from "./components/Characters";
@@ -51,7 +51,7 @@ function App() {
   }
 
   return (
-    <div className="">
+    <div className='main-container'>
       <BoxOffice boxOffice={boxOffice} invest={invest}></BoxOffice>
       <Characters
       buyMoonKnight={BuyMoonKnight}
